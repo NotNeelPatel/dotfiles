@@ -3,9 +3,7 @@
     "autoUpdate": true,
     "autoUpdateNotification": true,
     "useQuickCss": true,
-    "themeLinks": [
-        "https://raw.githubusercontent.com/NotNeelPatel/GruvboxLight-Discord/main/gruvboxlight.css"
-    ],
+    "themeLinks": [],
     "enableReactDevtools": true,
     "frameless": false,
     "transparent": false,
@@ -45,7 +43,7 @@
             "enabled": true
         },
         "SettingsStoreAPI": {
-            "enabled": false
+            "enabled": true
         },
         "NoTrack": {
             "enabled": true,
@@ -99,7 +97,7 @@
             "enabled": false
         },
         "CallTimer": {
-            "enabled": false
+            "enabled": true
         },
         "ClearURLs": {
             "enabled": true
@@ -122,7 +120,8 @@
         },
         "Experiments": {
             "enabled": true,
-            "enableIsStaff": false
+            "enableIsStaff": false,
+            "toolbarDevMenu": false
         },
         "F8Break": {
             "enabled": false
@@ -149,7 +148,7 @@
             "enabled": false
         },
         "ForceOwnerCrown": {
-            "enabled": false
+            "enabled": true
         },
         "FriendInvites": {
             "enabled": false
@@ -170,7 +169,13 @@
             "enabled": false
         },
         "ImageZoom": {
-            "enabled": false
+            "enabled": true,
+            "size": 100,
+            "zoom": 2,
+            "nearestNeighbour": false,
+            "square": false,
+            "saveZoomValues": true,
+            "zoomSpeed": 0.5
         },
         "InvisibleChat": {
             "enabled": false,
@@ -438,7 +443,7 @@
             "enabled": false
         },
         "ClientTheme": {
-            "enabled": false,
+            "enabled": true,
             "color": "313338"
         },
         "CopyUserURLs": {
@@ -508,19 +513,22 @@
             "guild": true,
             "everyone": true,
             "role": true,
-            "showAllChannels": true
+            "showAllChannels": true,
+            "events": true,
+            "highlights": true,
+            "messages": 3
         },
         "ChatInputButtonAPI": {
             "enabled": false
         },
         "FixYoutubeEmbeds": {
-            "enabled": false
+            "enabled": true
         },
         "BetterRoleContext": {
             "enabled": false
         },
         "BetterSettings": {
-            "enabled": false,
+            "enabled": true,
             "disableFade": true,
             "organizeMenu": true,
             "eagerLoad": true
@@ -541,7 +549,9 @@
             "enabled": false
         },
         "BetterSessions": {
-            "enabled": false
+            "enabled": false,
+            "backgroundCheck": false,
+            "checkInterval": 20
         },
         "ImplicitRelationships": {
             "enabled": false
@@ -596,12 +606,9 @@
             "enabled": false
         },
         "MaskedLinkPaste": {
-            "enabled": false
+            "enabled": true
         },
         "Summaries": {
-            "enabled": false
-        },
-        "WatchTogetherAdblock": {
             "enabled": false
         },
         "MessageUpdaterAPI": {
@@ -618,6 +625,21 @@
         },
         "NoOnboardingDelay": {
             "enabled": false
+        },
+        "UserSettingsAPI": {
+            "enabled": true
+        },
+        "ConsoleJanitor": {
+            "enabled": false
+        },
+        "ShowAllRoles": {
+            "enabled": false
+        },
+        "MentionAvatars": {
+            "enabled": false
+        },
+        "YoutubeAdblock": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -630,7 +652,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1717887749955
+        "settingsSyncVersion": 1722527757723
     },
     "enabledThemes": []
 }
