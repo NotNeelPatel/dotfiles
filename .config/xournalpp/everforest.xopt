@@ -3,5 +3,5 @@ copyLastPageSize=false
 copyLastPageSettings=false
 size=595.275591x841.889764
 backgroundType=graph
-backgroundTypeConfig=m1=40,rm=1
-backgroundColor=#fbf1c7
+backgroundTypeConfig=m1=40,rm=1,f1=0xBEC5B2
+backgroundColor=#f2efdf
