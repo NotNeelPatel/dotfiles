@@ -26,5 +26,7 @@ if [ -d ~/.bashrc.d ]; then
 	done
 fi
 
+export EDITOR="/usr/bin/vim"
+export TERM=xterm
 
 unset rc

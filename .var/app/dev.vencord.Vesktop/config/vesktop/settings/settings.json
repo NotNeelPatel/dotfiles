@@ -103,7 +103,8 @@
             "enabled": false
         },
         "CallTimer": {
-            "enabled": true
+            "enabled": true,
+            "format": "stopwatch"
         },
         "ClearURLs": {
             "enabled": false
@@ -149,7 +150,7 @@
             "enabled": false
         },
         "Decor": {
-            "enabled": true
+            "enabled": false
         },
         "DisableCallIdle": {
             "enabled": false
@@ -159,7 +160,7 @@
         },
         "Experiments": {
             "enabled": true,
-            "toolbarDevMenu": false
+            "toolbarDevMenu": true
         },
         "ExpressionCloner": {
             "enabled": false
@@ -260,7 +261,12 @@
             "enabled": false
         },
         "LoadingQuotes": {
-            "enabled": false
+            "enabled": false,
+            "replaceEvents": true,
+            "enablePluginPresetQuotes": true,
+            "enableDiscordPresetQuotes": false,
+            "additionalQuotes": "",
+            "additionalQuotesDelimiter": "|"
         },
         "MemberCount": {
             "enabled": true,
@@ -281,9 +287,6 @@
             "enabled": false
         },
         "MessageLogger": {
-            "enabled": false
-        },
-        "MessageTags": {
             "enabled": false
         },
         "MutualGroupDMs": {
@@ -338,7 +341,7 @@
             "enabled": false
         },
         "oneko": {
-            "enabled": true
+            "enabled": false
         },
         "OpenInApp": {
             "enabled": false
@@ -529,7 +532,7 @@
             "enabled": false
         },
         "ViewIcons": {
-            "enabled": false
+            "enabled": true
         },
         "ViewRaw": {
             "enabled": false
@@ -577,6 +580,12 @@
         },
         "WebContextMenus": {
             "enabled": true
+        },
+        "MoreQuickReactions": {
+            "enabled": false
+        },
+        "CustomCommands": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -589,6 +598,10 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1757206923539
+        "settingsSyncVersion": 1773509473796
+    },
+    "uiElements": {
+        "chatBarButtons": {},
+        "messagePopoverButtons": {}
     }
 }
